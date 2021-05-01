@@ -7,14 +7,12 @@
 
 import SwiftUI
 
-
-
 struct ContentView: View {
     
     var r:Double = Double.random(in: 1..<250)/255
     var g:Double = 150/255
     var b:Double = 100/255
-    var o = 7
+    var o = 8
     var w = Int.random(in: 100..<200)
     
     var xoff = Int.random(in: 1..<20)
